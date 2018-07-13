@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BB4515720F8FEE20070C96F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB4515620F8FEE20070C96F /* AppDelegate.swift */; };
+		6BB4515920F8FEE20070C96F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB4515820F8FEE20070C96F /* ViewController.swift */; };
+		6BB4515B20F8FEE30070C96F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BB4515A20F8FEE30070C96F /* Assets.xcassets */; };
+		6BB4515E20F8FEE40070C96F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BB4515C20F8FEE40070C96F /* Main.storyboard */; };
+		6BB4516A20F8FEE40070C96F /* MacLockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB4516920F8FEE40070C96F /* MacLockTests.swift */; };
+		6BB4517520F8FEE40070C96F /* MacLockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB4517420F8FEE40070C96F /* MacLockUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BB4516620F8FEE40070C96F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BB4514B20F8FEE20070C96F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BB4515220F8FEE20070C96F;
+			remoteInfo = MacLock;
+		};
+		6BB4517120F8FEE40070C96F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BB4514B20F8FEE20070C96F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BB4515220F8FEE20070C96F;
+			remoteInfo = MacLock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BB4515320F8FEE20070C96F /* MacLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB4515620F8FEE20070C96F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BB4515820F8FEE20070C96F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6BB4515A20F8FEE30070C96F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BB4515D20F8FEE40070C96F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BB4515F20F8FEE40070C96F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BB4516020F8FEE40070C96F /* MacLock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacLock.entitlements; sourceTree = "<group>"; };
+		6BB4516520F8FEE40070C96F /* MacLockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacLockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB4516920F8FEE40070C96F /* MacLockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacLockTests.swift; sourceTree = "<group>"; };
+		6BB4516B20F8FEE40070C96F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BB4517020F8FEE40070C96F /* MacLockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacLockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB4517420F8FEE40070C96F /* MacLockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacLockUITests.swift; sourceTree = "<group>"; };
+		6BB4517620F8FEE40070C96F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BB4515020F8FEE20070C96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB4516220F8FEE40070C96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB4516D20F8FEE40070C96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BB4514A20F8FEE20070C96F = {
+			isa = PBXGroup;
+			children = (
+				6BB4515520F8FEE20070C96F /* MacLock */,
+				6BB4516820F8FEE40070C96F /* MacLockTests */,
+				6BB4517320F8FEE40070C96F /* MacLockUITests */,
+				6BB4515420F8FEE20070C96F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BB4515420F8FEE20070C96F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BB4515320F8FEE20070C96F /* MacLock.app */,
+				6BB4516520F8FEE40070C96F /* MacLockTests.xctest */,
+				6BB4517020F8FEE40070C96F /* MacLockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BB4515520F8FEE20070C96F /* MacLock */ = {
+			isa = PBXGroup;
+			children = (
+				6BB4515620F8FEE20070C96F /* AppDelegate.swift */,
+				6BB4515820F8FEE20070C96F /* ViewController.swift */,
+				6BB4515A20F8FEE30070C96F /* Assets.xcassets */,
+				6BB4515C20F8FEE40070C96F /* Main.storyboard */,
+				6BB4515F20F8FEE40070C96F /* Info.plist */,
+				6BB4516020F8FEE40070C96F /* MacLock.entitlements */,
+			);
+			path = MacLock;
+			sourceTree = "<group>";
+		};
+		6BB4516820F8FEE40070C96F /* MacLockTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BB4516920F8FEE40070C96F /* MacLockTests.swift */,
+				6BB4516B20F8FEE40070C96F /* Info.plist */,
+			);
+			path = MacLockTests;
+			sourceTree = "<group>";
+		};
+		6BB4517320F8FEE40070C96F /* MacLockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6BB4517420F8FEE40070C96F /* MacLockUITests.swift */,
+				6BB4517620F8FEE40070C96F /* Info.plist */,
+			);
+			path = MacLockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BB4515220F8FEE20070C96F /* MacLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BB4517920F8FEE40070C96F /* Build configuration list for PBXNativeTarget "MacLock" */;
+			buildPhases = (
+				6BB4514F20F8FEE20070C96F /* Sources */,
+				6BB4515020F8FEE20070C96F /* Frameworks */,
+				6BB4515120F8FEE20070C96F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacLock;
+			productName = MacLock;
+			productReference = 6BB4515320F8FEE20070C96F /* MacLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BB4516420F8FEE40070C96F /* MacLockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BB4517C20F8FEE40070C96F /* Build configuration list for PBXNativeTarget "MacLockTests" */;
+			buildPhases = (
+				6BB4516120F8FEE40070C96F /* Sources */,
+				6BB4516220F8FEE40070C96F /* Frameworks */,
+				6BB4516320F8FEE40070C96F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BB4516720F8FEE40070C96F /* PBXTargetDependency */,
+			);
+			name = MacLockTests;
+			productName = MacLockTests;
+			productReference = 6BB4516520F8FEE40070C96F /* MacLockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6BB4516F20F8FEE40070C96F /* MacLockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BB4517F20F8FEE40070C96F /* Build configuration list for PBXNativeTarget "MacLockUITests" */;
+			buildPhases = (
+				6BB4516C20F8FEE40070C96F /* Sources */,
+				6BB4516D20F8FEE40070C96F /* Frameworks */,
+				6BB4516E20F8FEE40070C96F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BB4517220F8FEE40070C96F /* PBXTargetDependency */,
+			);
+			name = MacLockUITests;
+			productName = MacLockUITests;
+			productReference = 6BB4517020F8FEE40070C96F /* MacLockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BB4514B20F8FEE20070C96F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Gero Embser";
+				TargetAttributes = {
+					6BB4515220F8FEE20070C96F = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					6BB4516420F8FEE40070C96F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 6BB4515220F8FEE20070C96F;
+					};
+					6BB4516F20F8FEE40070C96F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 6BB4515220F8FEE20070C96F;
+					};
+				};
+			};
+			buildConfigurationList = 6BB4514E20F8FEE20070C96F /* Build configuration list for PBXProject "MacLock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BB4514A20F8FEE20070C96F;
+			productRefGroup = 6BB4515420F8FEE20070C96F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BB4515220F8FEE20070C96F /* MacLock */,
+				6BB4516420F8FEE40070C96F /* MacLockTests */,
+				6BB4516F20F8FEE40070C96F /* MacLockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BB4515120F8FEE20070C96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB4515B20F8FEE30070C96F /* Assets.xcassets in Resources */,
+				6BB4515E20F8FEE40070C96F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB4516320F8FEE40070C96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB4516E20F8FEE40070C96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BB4514F20F8FEE20070C96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB4515920F8FEE20070C96F /* ViewController.swift in Sources */,
+				6BB4515720F8FEE20070C96F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB4516120F8FEE40070C96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB4516A20F8FEE40070C96F /* MacLockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB4516C20F8FEE40070C96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB4517520F8FEE40070C96F /* MacLockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BB4516720F8FEE40070C96F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BB4515220F8FEE20070C96F /* MacLock */;
+			targetProxy = 6BB4516620F8FEE40070C96F /* PBXContainerItemProxy */;
+		};
+		6BB4517220F8FEE40070C96F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BB4515220F8FEE20070C96F /* MacLock */;
+			targetProxy = 6BB4517120F8FEE40070C96F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6BB4515C20F8FEE40070C96F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BB4515D20F8FEE40070C96F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BB4517720F8FEE40070C96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BB4517820F8FEE40070C96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6BB4517A20F8FEE40070C96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MacLock/MacLock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = M2QB5D8L2K;
+				INFOPLIST_FILE = MacLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.geroembser.MacLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		6BB4517B20F8FEE40070C96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MacLock/MacLock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = M2QB5D8L2K;
+				INFOPLIST_FILE = MacLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.geroembser.MacLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		6BB4517D20F8FEE40070C96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = M2QB5D8L2K;
+				INFOPLIST_FILE = MacLockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.geroembser.MacLockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacLock.app/Contents/MacOS/MacLock";
+			};
+			name = Debug;
+		};
+		6BB4517E20F8FEE40070C96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = M2QB5D8L2K;
+				INFOPLIST_FILE = MacLockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.geroembser.MacLockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacLock.app/Contents/MacOS/MacLock";
+			};
+			name = Release;
+		};
+		6BB4518020F8FEE40070C96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = M2QB5D8L2K;
+				INFOPLIST_FILE = MacLockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.geroembser.MacLockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = MacLock;
+			};
+			name = Debug;
+		};
+		6BB4518120F8FEE40070C96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = M2QB5D8L2K;
+				INFOPLIST_FILE = MacLockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.geroembser.MacLockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = MacLock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BB4514E20F8FEE20070C96F /* Build configuration list for PBXProject "MacLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB4517720F8FEE40070C96F /* Debug */,
+				6BB4517820F8FEE40070C96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BB4517920F8FEE40070C96F /* Build configuration list for PBXNativeTarget "MacLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB4517A20F8FEE40070C96F /* Debug */,
+				6BB4517B20F8FEE40070C96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BB4517C20F8FEE40070C96F /* Build configuration list for PBXNativeTarget "MacLockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB4517D20F8FEE40070C96F /* Debug */,
+				6BB4517E20F8FEE40070C96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BB4517F20F8FEE40070C96F /* Build configuration list for PBXNativeTarget "MacLockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB4518020F8FEE40070C96F /* Debug */,
+				6BB4518120F8FEE40070C96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BB4514B20F8FEE20070C96F /* Project object */;
+}
