@@ -37,6 +37,10 @@ extension Lock {
         
         //observe power source changes
         try pm.setupPowerSourceChangedNotification(){ [unowned self] (newPowerSource) in
+            guard self.isLocked else {
+                //if not locked, there's no need to play an alarm
+                return
+            }
             guard !newPowerSource.isACPower else {
                 return //that's fine... 😡
             }
@@ -67,6 +71,9 @@ extension Lock {
         
         //disable disable-sleep
         try enableSleep()
+        
+        //remove power source change notification
+        pm.removePowerSourceChangedNotification()
         
         //stop alarm
         stopAlarm()
