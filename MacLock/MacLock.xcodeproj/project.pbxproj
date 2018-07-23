@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B50C53E2104D97C008B2C43 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B50C53D2104D97C008B2C43 /* AudioManager.swift */; };
+		6B50C54C21053761008B2C43 /* Audio.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6B50C5492104E521008B2C43 /* Audio.mm */; };
+		6B50C54E21053785008B2C43 /* AudioDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B50C54D21053785008B2C43 /* AudioDevice.swift */; };
+		6B50C5502105388B008B2C43 /* AudioErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B50C54F2105388B008B2C43 /* AudioErrorHandling.swift */; };
+		6B50C55321054B37008B2C43 /* Collection+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B50C55221054B37008B2C43 /* Collection+Extensions.swift */; };
+		6B50C555210555A1008B2C43 /* ClosedRange+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B50C554210555A1008B2C43 /* ClosedRange+Extensions.swift */; };
+		6B797FD12104026500F5479B /* RootStatusBarItemLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B797FD02104026500F5479B /* RootStatusBarItemLayer.swift */; };
 		6BB4515720F8FEE20070C96F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB4515620F8FEE20070C96F /* AppDelegate.swift */; };
 		6BB4515920F8FEE20070C96F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB4515820F8FEE20070C96F /* ViewController.swift */; };
 		6BB4515B20F8FEE30070C96F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BB4515A20F8FEE30070C96F /* Assets.xcassets */; };
 		6BB4515E20F8FEE40070C96F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BB4515C20F8FEE40070C96F /* Main.storyboard */; };
 		6BB4516A20F8FEE40070C96F /* MacLockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB4516920F8FEE40070C96F /* MacLockTests.swift */; };
 		6BB4517520F8FEE40070C96F /* MacLockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB4517420F8FEE40070C96F /* MacLockUITests.swift */; };
+		6BB4518320FE27AB0070C96F /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB4518220FE27AB0070C96F /* Lock.swift */; };
+		6BB4518520FE28D20070C96F /* PowerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB4518420FE28D20070C96F /* PowerManager.swift */; };
+		6BB4518720FE2BC60070C96F /* SimpleAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB4518620FE2BC60070C96F /* SimpleAnimations.swift */; };
+		6BBBDE7520FF8E8E0089B4EA /* macos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBBDE7420FF8E8E0089B4EA /* macos.swift */; };
+		6BBBDE7720FF910C0089B4EA /* login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BBBDE7620FF910C0089B4EA /* login.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B50C53D2104D97C008B2C43 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		6B50C53F2104E144008B2C43 /* MacLock-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacLock-Bridging-Header.h"; sourceTree = "<group>"; };
+		6B50C5492104E521008B2C43 /* Audio.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Audio.mm; sourceTree = "<group>"; };
+		6B50C54D21053785008B2C43 /* AudioDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioDevice.swift; sourceTree = "<group>"; };
+		6B50C54F2105388B008B2C43 /* AudioErrorHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioErrorHandling.swift; sourceTree = "<group>"; };
+		6B50C55221054B37008B2C43 /* Collection+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extensions.swift"; sourceTree = "<group>"; };
+		6B50C554210555A1008B2C43 /* ClosedRange+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClosedRange+Extensions.swift"; sourceTree = "<group>"; };
+		6B797FD02104026500F5479B /* RootStatusBarItemLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootStatusBarItemLayer.swift; sourceTree = "<group>"; };
 		6BB4515320F8FEE20070C96F /* MacLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BB4515620F8FEE20070C96F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BB4515820F8FEE20070C96F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +66,12 @@
 		6BB4517020F8FEE40070C96F /* MacLockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacLockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BB4517420F8FEE40070C96F /* MacLockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacLockUITests.swift; sourceTree = "<group>"; };
 		6BB4517620F8FEE40070C96F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BB4518220FE27AB0070C96F /* Lock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lock.swift; sourceTree = "<group>"; };
+		6BB4518420FE28D20070C96F /* PowerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerManager.swift; sourceTree = "<group>"; };
+		6BB4518620FE2BC60070C96F /* SimpleAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAnimations.swift; sourceTree = "<group>"; };
+		6BB4518920FE38510070C96F /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		6BBBDE7420FF8E8E0089B4EA /* macos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macos.swift; sourceTree = "<group>"; };
+		6BBBDE7620FF910C0089B4EA /* login.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = login.framework; path = ../../../../../System/Library/PrivateFrameworks/login.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BBBDE7720FF910C0089B4EA /* login.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +100,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B50C54B21053528008B2C43 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				6B50C53D2104D97C008B2C43 /* AudioManager.swift */,
+				6B50C5492104E521008B2C43 /* Audio.mm */,
+				6B50C54D21053785008B2C43 /* AudioDevice.swift */,
+				6B50C54F2105388B008B2C43 /* AudioErrorHandling.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		6B50C55121054B2A008B2C43 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6B50C55221054B37008B2C43 /* Collection+Extensions.swift */,
+				6B50C554210555A1008B2C43 /* ClosedRange+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		6BB4514A20F8FEE20070C96F = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +127,7 @@
 				6BB4516820F8FEE40070C96F /* MacLockTests */,
 				6BB4517320F8FEE40070C96F /* MacLockUITests */,
 				6BB4515420F8FEE20070C96F /* Products */,
+				6BB4518820FE38510070C96F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,10 +146,18 @@
 			children = (
 				6BB4515620F8FEE20070C96F /* AppDelegate.swift */,
 				6BB4515820F8FEE20070C96F /* ViewController.swift */,
+				6BB4518220FE27AB0070C96F /* Lock.swift */,
+				6BBBDE7420FF8E8E0089B4EA /* macos.swift */,
+				6BB4518420FE28D20070C96F /* PowerManager.swift */,
+				6B50C54B21053528008B2C43 /* Audio */,
+				6BB4518620FE2BC60070C96F /* SimpleAnimations.swift */,
+				6B797FD02104026500F5479B /* RootStatusBarItemLayer.swift */,
+				6B50C55121054B2A008B2C43 /* Extensions */,
 				6BB4515A20F8FEE30070C96F /* Assets.xcassets */,
 				6BB4515C20F8FEE40070C96F /* Main.storyboard */,
 				6BB4515F20F8FEE40070C96F /* Info.plist */,
 				6BB4516020F8FEE40070C96F /* MacLock.entitlements */,
+				6B50C53F2104E144008B2C43 /* MacLock-Bridging-Header.h */,
 			);
 			path = MacLock;
 			sourceTree = "<group>";
@@ -122,6 +178,15 @@
 				6BB4517620F8FEE40070C96F /* Info.plist */,
 			);
 			path = MacLockUITests;
+			sourceTree = "<group>";
+		};
+		6BB4518820FE38510070C96F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BBBDE7620FF910C0089B4EA /* login.framework */,
+				6BB4518920FE38510070C96F /* IOKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +257,7 @@
 				TargetAttributes = {
 					6BB4515220F8FEE20070C96F = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					6BB4516420F8FEE40070C96F = {
 						CreatedOnToolsVersion = 10.0;
@@ -254,8 +320,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B50C54E21053785008B2C43 /* AudioDevice.swift in Sources */,
 				6BB4515920F8FEE20070C96F /* ViewController.swift in Sources */,
+				6BB4518520FE28D20070C96F /* PowerManager.swift in Sources */,
+				6B50C555210555A1008B2C43 /* ClosedRange+Extensions.swift in Sources */,
+				6B50C53E2104D97C008B2C43 /* AudioManager.swift in Sources */,
+				6BB4518720FE2BC60070C96F /* SimpleAnimations.swift in Sources */,
+				6B50C5502105388B008B2C43 /* AudioErrorHandling.swift in Sources */,
+				6B797FD12104026500F5479B /* RootStatusBarItemLayer.swift in Sources */,
+				6BB4518320FE27AB0070C96F /* Lock.swift in Sources */,
 				6BB4515720F8FEE20070C96F /* AppDelegate.swift in Sources */,
+				6B50C55321054B37008B2C43 /* Collection+Extensions.swift in Sources */,
+				6B50C54C21053761008B2C43 /* Audio.mm in Sources */,
+				6BBBDE7520FF8E8E0089B4EA /* macos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +496,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = MacLock/MacLock.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -430,7 +508,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.geroembser.MacLock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MacLock/MacLock-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
 			};
 			name = Debug;
 		};
@@ -438,6 +522,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = MacLock/MacLock.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -449,7 +534,12 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.geroembser.MacLock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MacLock/MacLock-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
 			};
 			name = Release;
 		};
