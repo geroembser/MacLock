@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <CoreAudio/CoreAudio.h>
 
+//Here, we can write some c++ CoreAudio Helper functions (if we like....)
+
 Float32 GetVolumeScalar(AudioDeviceID inDevice, bool inIsInput, UInt32 inChannel)
 {
     Float32 theAnswer = 0;
