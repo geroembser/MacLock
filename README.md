@@ -3,7 +3,7 @@ _(still open for name suggestions…)_
 
 Simply connect your MacBook to the power :electric_plug:, "lock" it in your StatusBar :closed_lock_with_key: using _MacLock_, and an alarm :rotating_light: will sound loudly as soon as your MacBook is disconnected from the power.
 
-_Note:_ This is still beta and has some known issues (see [To Do](#To-Do) as well).
+_Note:_ This is still beta and has some known issues (see [To Do](#to-do-pencil) as well).
 
 ## Getting Started
 Download MacLock [here](https://github.com/geroembser/MacLock/releases/download/v1.0/MacLock.app.zip), add it to your `/Applications` directory and launch it.
