@@ -139,7 +139,7 @@ extension Lock {
         //highest volume
         am.maximizeVolumeForCurrentAudioOutput()
         
-        alarmSound = NSSound(named: "Basso.aiff")
+        alarmSound = NSSound(data: NSDataAsset(name: "Sounds/alarmSound")!.data)
         alarmSound?.loops = true
         alarmSound?.play()
     }
