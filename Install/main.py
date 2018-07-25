@@ -2,6 +2,7 @@ import tempfile  # for temp files
 import urllib2  # for downloading
 import subprocess  # for unzipping
 import os  # for opening app
+import sys
 
 version = "1.0"
 download_url = "https://github.com/geroembser/MacLock/releases/download/v"+version+"/MacLock.app.zip"
@@ -39,8 +40,8 @@ while True:
 
     # printing status...
     status = r"%10d  [%3.2f%%]" % (file_size_dl, file_size_dl * 100. / file_size)
-    status = status + chr(8)*(len(status)+1)
-    print status
+    print(status)
+    sys.stdout.write("\033[F")
 
 # close file
 f.close()
