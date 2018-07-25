@@ -8,6 +8,12 @@ _Note:_ This is still beta and has some known issues (see [To Do](#to-do-pencil)
 ## Getting Started
 Download MacLock [here](https://github.com/geroembser/MacLock/releases/download/v1.0/MacLock.app.zip), add it to your `/Applications` directory and launch it.
 
+If you'd like to use your terminal, just copy this and hit return…
+```
+/usr/bin/python2.7 -c "$(curl -fsSL https://raw.githubusercontent.com/geroembser/MacLock/master/Install/main.py)"
+```
+[> 50 :star: and there's a chance to use one of the well known Mac package managers… :smile:]
+
 
 Or clone and build it yourself!
 
